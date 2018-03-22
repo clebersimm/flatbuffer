@@ -1,0 +1,20 @@
+//
+include "equipment.fbs";
+namespace teste;
+
+table Player  {
+    uuid:string;
+    name:string;
+    title:string;
+    currentXP:long;
+    currentQI:long;
+    currentHP:long;
+    gold:long;
+    equipment:[Equipment];
+}
+
+root_type Player;
+
+file_identifier "TTT1";
+
+file_extension "tt";

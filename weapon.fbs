@@ -1,0 +1,11 @@
+include "equipment.fbs";
+namespace teste;
+
+table Weapon {
+    equipment:Equipment;
+    bonus:int;//not this
+}
+
+file_identifier "TTT1";
+
+file_extension "tt";

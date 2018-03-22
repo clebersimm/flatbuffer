@@ -1,0 +1,11 @@
+include "equipment.fbs";
+namespace teste;
+
+table Armor {
+    equipment:Equipment;
+    bonus:int;
+}
+
+file_identifier "TTT1";
+
+file_extension "tt";

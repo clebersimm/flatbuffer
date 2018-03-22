@@ -1,0 +1,6 @@
+namespace teste;
+
+table Powerups {
+    id:string;
+    description:string;
+}

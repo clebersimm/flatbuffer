@@ -1,0 +1,18 @@
+include "powerups.fbs";
+namespace teste;
+
+enum Rarity: byte { Common = 0, Uncommon = 1, Rare = 2 }
+
+table Equipment {
+    uuid:string;
+    description:string;
+    nickname:string;
+    level:byte;
+    rarity:Rarity;
+    type:byte;
+    set:byte;
+    x:float;
+    y:float;
+    z:float;
+    powerups:[Powerups];
+}
